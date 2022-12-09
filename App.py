@@ -42,3 +42,5 @@ def attack():
 
 while(hamster_rival["hp"] > 0):
     attack()
+if hamster_rival["hp"] < 0:
+    print("You Defeated The Hamster Rival!")
