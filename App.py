@@ -21,7 +21,6 @@ print(HAMSTER["hp"])
 
 HAMSTER["hp"] = HAMSTER["hp"] + 20
 print(HAMSTER["hp"])
-
 print(hamster_rival)
 print(hamster_rival["hp"])
 hamster_rival["hp"] = hamster_rival["hp"] + 20
@@ -42,5 +41,3 @@ def attack():
 
 while(hamster_rival["hp"] > 0):
     attack()
-if hamster_rival["hp"] < 0:
-    print("You Defeated The Hamster Rival!")
